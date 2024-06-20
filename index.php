@@ -40,8 +40,10 @@
 			<form action="send.php" method="POST">
 				<h1>Send Single Message</h1>
 				<div class="form-group">
-					<label for="email">Phone Number:</label>
-					<input type="text" class="form-control" id="phone" name="phone">
+				<label for="phoneNumber">Phone Number:</label>
+				<input type="text" class="form-control" id="phoneNumbers" name="phoneNumbers">
+                 
+				
 				</div>
 				 <div class="form-group">
 				  <label for="comment">Message:</label>
